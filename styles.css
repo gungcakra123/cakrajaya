@@ -11,7 +11,7 @@ body {
    background-image: url(img/wallpaper-gelap.jpg);
    background-attachment: fixed;
    background-size: cover; */
-   background-image: linear-gradient(black,rgb(61, 1, 1));
+   background-image: linear-gradient(black,rgb(54, 53, 53));
  
 
 }
@@ -216,51 +216,61 @@ body {
 /* SKILL START */
 #skill{
     width: 100%;
-    height: 100px;
+    height: 700px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-   
 }
 #skill h3{
     color: white;
     font-size: 30px;
 }
-.row{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    flex-wrap: wrap;
-}
+
 .col{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 1200px;
+    height: 600px;
+    flex-wrap: wrap;
 }
 .card{
-    display: flex;
+    background-color: rgb(59, 59, 59);
     flex-direction:column;
-}
-.card h4{
-    background-color: black;
-    color: white;
     display: flex;
-    justify-content: center;
+    
     align-items: center;
-    width: 100px;
-    height: 50px;
-    margin: 10px;
+    width: 400px;
+    height: 200px;
+    margin: 15px;
     border-radius: 10px;
     
 }
-.card h4:hover{
+.card:hover{
     transition: 0.5s;
     background-color: transparent;
-    box-shadow: 1px 1px 15px white;
+    box-shadow: 1px 1px 15px red;
 }
+.card .head h4{
+    font-size: 30px;
+    color: white;
+}
+.card .head{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.card .head i{
+    margin-right: 5px;
+    color: white;
+    font-size: 30px;
+}
+.card a{
+    margin: 10px;
+    color: white;
+}
+
 /* Skill end */
 /* Footer start */
 footer{
